@@ -1,0 +1,25 @@
+{
+  "name": "charter-cli",
+  "version": "0.1.0",
+  "description": "Encode settled decisions as fixed constraints so coding agents don't re-litigate them.",
+  "license": "MIT",
+  "bin": {
+    "charter": "bin/charter.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "test": "bash test/e2e.sh"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude-code",
+    "agents",
+    "context",
+    "decisions",
+    "cli"
+  ]
+}
