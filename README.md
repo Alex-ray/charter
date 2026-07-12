@@ -22,8 +22,14 @@ context via `CLAUDE.md`.
 Requires Node 18+.
 
 ```sh
-# in your project root
-npx charter-cli init
+git clone https://github.com/alexjamesray/charter
+npm install -g ./charter   # installs the `charter` command
+```
+
+Then, in your project root:
+
+```sh
+charter init
 ```
 
 This scaffolds:
@@ -41,7 +47,7 @@ Create your first charter and re-sync:
 ```sh
 cp charters/TEMPLATE.md charters/engineering.md
 $EDITOR charters/engineering.md   # set the name, role, scope, constraints
-npx charter-cli sync
+charter sync
 ```
 
 `sync` rewrites the block between `<!-- charter:begin -->` and
@@ -55,14 +61,14 @@ decisions that must not be re-opened.
 Decisions rarely arrive settled. Log them as they happen:
 
 ```sh
-npx charter-cli log "All persistence goes through a single storage module" --charter engineering
+charter log "All persistence goes through a single storage module" --charter engineering
 # logged    D-0001 → engineering: All persistence goes through ...
 ```
 
 When a decision is settled, promote it:
 
 ```sh
-npx charter-cli promote D-0001
+charter promote D-0001
 ```
 
 `promote` appends the decision to the charter's `fixed_constraints`, bumps
