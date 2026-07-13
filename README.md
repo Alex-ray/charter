@@ -22,7 +22,7 @@ context via `CLAUDE.md`.
 Requires Node 18+.
 
 ```sh
-git clone https://github.com/alexjamesray/charter
+git clone https://github.com/Alex-ray/charter
 npm install -g ./charter   # installs the `charter` command
 ```
 
