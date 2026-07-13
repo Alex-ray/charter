@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Encode settled decisions as fixed constraints so coding agents don't re-litigate them.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-ray/charter.git"
+  },
   "bin": {
     "charter": "bin/charter.js"
   },
