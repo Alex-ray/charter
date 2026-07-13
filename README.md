@@ -99,13 +99,17 @@ undecided, so agents know what's still safe to discuss. The full format,
 including the deliberately strict frontmatter rules, is documented in
 `charters/SCHEMA.md` after `init`.
 
-## Examples
+## Examples and templates
 
 [`examples/acme-tasks/`](examples/acme-tasks/) is a complete setup for a
 fictional self-hosted task tracker, with four archetype charters —
 engineering, docs, research, and gtm — plus a generated `CLAUDE.md` and a
 decision log with one promoted entry. Copy an archetype and rewrite it for
 your project.
+
+[`templates/`](templates/) has blank versions of the same four archetypes:
+copy one into your `charters/` directory, replace the placeholders, and run
+`charter sync`.
 
 ## Commands
 

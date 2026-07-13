@@ -1,3 +1,6 @@
 node_modules/
 *.log
 .DS_Store
+ORCH_STATE.md
+HUMAN_QUEUE.md
+drafts/
