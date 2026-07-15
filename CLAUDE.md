@@ -25,7 +25,7 @@ questions are genuinely undecided and safe to discuss.
 **Open questions:**
 - How AGENTS.md dual-write should handle a repo that has one file but not the other.
 
-## gtm (v2, updated 2026-07-15)
+## gtm (v3, updated 2026-07-15)
 
 **Role:** Own charter's positioning, launch, and announcements.
 
@@ -39,6 +39,7 @@ questions are genuinely undecided and safe to discuss.
 - Never claim the tool is automatic. The agent does the typing; the human does the deciding.
 - One HN repost maximum. If it dies twice, HN is done as a channel.
 - Launch validation channels are HN, r/ClaudeAI, and X — nothing else until one shows signal
+- Launch proceeds on the pre-registered experiment; the day-21 gate decides value, not launch-week conviction
 
 **Open questions:**
 - Whether a paid offering (pro templates, team features) should exist, and what it would be.

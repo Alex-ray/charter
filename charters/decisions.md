@@ -22,3 +22,9 @@ the CLI; edit by hand only if you keep the format intact.
 - charter: gtm
 - status: promoted (gtm v2, 2026-07-15)
 - decision: Launch validation channels are HN, r/ClaudeAI, and X — nothing else until one shows signal
+
+## D-0004
+- date: 2026-07-15
+- charter: gtm
+- status: promoted (gtm v3, 2026-07-15)
+- decision: Launch proceeds on the pre-registered experiment; the day-21 gate decides value, not launch-week conviction
