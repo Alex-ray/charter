@@ -56,6 +56,22 @@ yours; `charter` never touches it. From then on, every Claude Code session in
 the project starts with your fixed constraints in context, framed as settled
 decisions that must not be re-opened.
 
+### Don't want to write frontmatter? Don't.
+
+Charters are plain markdown in your repo and the format is documented in
+`charters/SCHEMA.md`, so the agent can do the authoring for you. After
+`charter init`, tell Claude Code:
+
+> Read charters/SCHEMA.md, then create charters/engineering.md for this
+> project — infer the role, scope, and open questions from the codebase, and
+> propose fixed constraints for the decisions I've clearly already made.
+> Then run `charter sync`.
+
+Agents can also record decisions themselves as you make them mid-session
+(`charter log`). The one thing to keep for yourself is `charter promote` —
+deciding what's *settled* is the human's job, and that's the point of the
+tool.
+
 ## Recording and promoting decisions
 
 Decisions rarely arrive settled. Log them as they happen:
